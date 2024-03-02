@@ -1,0 +1,25 @@
+/*
+MY COLOR PALETTE
+Color 1 - #D6FFF6
+Color 2 - #231651
+Color 3 - #4DCCBD
+Color 4 - #2374AB
+Color 5 - #FF8484
+*/
+
+body {
+    background-color: #D6FFF6;
+}
+
+button {
+    background-color: #231651;
+    color: #4DCCBD
+}
+
+button:hover {
+    background-color: #2374AB;
+}
+
+h1 {
+      font-family: "DM Sans", sans-serif;
+}
