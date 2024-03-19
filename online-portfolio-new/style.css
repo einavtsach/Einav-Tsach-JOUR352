@@ -1,0 +1,70 @@
+/* PUT COLOR PALETTE HERE */
+
+@media {
+    img {
+        width: 40vw; /* Use viewport width (vw) for relative size */
+        padding: 10vw; /* Padding as a percentage of the viewport width */
+        border-radius: 50%;
+    }
+
+    h1 {
+        margin: 40vw 10vw 0 0;
+        font-size: 30vw;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        padding-top: 10%;
+    }
+
+    #topper {
+        background-color: #050a30;
+    }
+
+    #nav {
+        padding: 1%;
+        text-align: center;
+        background-color: #233dff;
+    }
+
+    #nav a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    #nav a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    h2 {
+        padding: 40px;
+    }
+
+    #lets-talk-button {
+        font-weight: bold;
+        margin-right: auto;
+        margin-left: 40px;
+        display: block;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+    }
+
+    #pro-title {
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: 40px; 
+        font-family: "Poppins", sans-serif;
+    }
+
+    .section-heading {
+        border-bottom: 1px solid blue;
+        padding-bottom: 10px
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        margin: 40px 10px 0 40px;
+        font-size: 70px;
+    }
+}
