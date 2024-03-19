@@ -69,8 +69,12 @@ body {
     padding-bottom: 40px;
 }
 
+.education-entry .university {
+    font-style: italic;
+}
+
 /* Responsive design adjustments */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     /* Styles for portrait view (phones) */
     body {
         margin-bottom: 60px; /* Smaller space for navbar on phones */
