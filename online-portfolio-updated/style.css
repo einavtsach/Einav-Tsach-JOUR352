@@ -20,9 +20,11 @@
 }
 
 #navbar .nav-link {
-    color: #e5e5e5; /* Text color for navbar links */
+    color: #e5e5e5;
     text-decoration: underline;
-    font-size: 25px
+    font-size: 30px;
+    color: #e5e5e5; 
+    margin-right: 40px;
 }
 
 #navbar .navbar-nav .nav-item {
@@ -101,12 +103,6 @@ text-align: center;
 }
 
 /* Navigation bar styles */
-
-#navbar .nav-link {
-  color: #e5e5e5; /* Text color for navbar links */
-  margin-right: 15px; /* Spacing between navbar items */
-}
-
 .btn-primary {
   background-color: #e85d04; /* Button background color */
   border: none; /* Remove default border */
