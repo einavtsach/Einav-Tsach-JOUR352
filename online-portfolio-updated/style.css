@@ -4,7 +4,9 @@
 #E16834 - Button background color
  */
 
-body {
+
+@media {
+   body {
     background-color: #050A30; /* Background color of the body */
     font-family: "Archivo Black"; /* Default font for the website */
     color: #e5e5e5; /* Default text color */
@@ -14,6 +16,7 @@ body {
 /* Navigation bar styles */
 #navbar {
     background-color: #233DFF; /* Background color for navbar */
+    margin-top: 20px;
 }
 
 #navbar .nav-link {
@@ -72,6 +75,47 @@ body {
 .education-entry .university {
     font-style: italic;
 }
+    
+    .site-topper {
+  background-color: #050A30; /* Background color of the site topper */
+  color: #ffffff;
+  padding: 20px 0;
+text-align: center;
+}
+
+.site-topper h1 {
+  font-size: 36px; /* Size of the name title */
+  color: #ffffff; /* Text color of the name */
+    text-align: center;
+}
+
+.site-topper .lead {
+  font-size: 20px; /* Size of the lead text */
+  color: #ffffff; /* Text color of the lead text */
+    text-align: center;
+}
+
+.site-topper img {
+  max-width: 100%; /* Adjust size as needed */
+  margin-bottom: 20px;
+}
+
+/* Navigation bar styles */
+
+#navbar .nav-link {
+  color: #e5e5e5; /* Text color for navbar links */
+  margin-right: 15px; /* Spacing between navbar items */
+}
+
+.btn-primary {
+  background-color: #e85d04; /* Button background color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Button padding */
+  color: #ffffff; /* Button text color */
+}
+ 
+}
+
 
 
 @media (max-width: 576px) {
@@ -94,44 +138,4 @@ body {
     #skills .col-md-4 {
         margin-bottom: 20px; /* Spacing between skill columns on phones */
     }
-}
-
-.site-topper {
-  background-color: #050A30; /* Background color of the site topper */
-  color: #ffffff;
-  padding: 20px 0;
-}
-
-.site-topper h1 {
-  font-size: 36px; /* Size of the name title */
-  color: #ffffff; /* Text color of the name */
-    text-align: center;
-}
-
-.site-topper .lead {
-  font-size: 20px; /* Size of the lead text */
-  color: #ffffff; /* Text color of the lead text */
-    text-align: center;
-}
-
-.site-topper img {
-  max-width: 300px; /* Adjust size as needed */
-  margin-bottom: 20px;
-}
-
-/* Navigation bar styles */
-#navbar {
-  margin-top: 20px; /* Space above the navbar */
-}
-
-#navbar .nav-link {
-  color: #e5e5e5; /* Text color for navbar links */
-  margin-right: 15px; /* Spacing between navbar items */
-}
-
-.btn-primary {
-  background-color: #e85d04; /* Button background color */
-  border: none; /* Remove default border */
-  padding: 10px 20px; /* Button padding */
-  color: #ffffff; /* Button text color */
 }
