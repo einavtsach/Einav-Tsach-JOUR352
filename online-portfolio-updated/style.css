@@ -6,14 +6,48 @@
 
 @media {
     body {
-        background-color: #050a30; /* Background color of the body */
-        font-family: "Archivo Black"; /* Default font for the website */
-        color: #e5e5e5; /* Default text color */
+        background-color: #050a30;
+        font-family: "Archivo Black"; 
+        color: #e5e5e5; 
     }
 
+    .site-topper {
+        background-color: #050a30; 
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .site-topper h1 {
+        font-size: 36px; 
+        color: #ffffff; 
+        text-align: center;
+    }
+
+    .site-topper .lead {
+        font-size: 20px; 
+        color: #ffffff; 
+        text-align: center;
+    }
+
+    .site-topper img {
+        max-width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+       margin-top: 50px;
+        background-color: #e85d04; 
+        border: none; 
+        padding: 10px 20px; 
+        color: #ffffff; 
+        font-size:30px;
+        margin-bottom: 80px;
+    }
+    
     /* Navigation bar styles */
     #navbar {
-        background-color: #233dff; /* Background color for navbar */
+        background-color: #233dff; 
         margin-top: 20px;
     }
 
@@ -26,23 +60,23 @@
     }
 
     #navbar .navbar-nav .nav-item {
-        padding: 0 10px; /* Spacing between navbar items */
+        padding: 0 10px; 
     }
 
     /* Section heading styles */
     .section-heading {
-        margin-bottom: 20px; /* Spacing below section headings */
-        color: #e5e5e5; /* Text color for section headings */
-        font-size: 35px; /* Text size for section headings */
-        text-align: center; /* Center-align section headings */
+        margin-bottom: 20px; 
+        color: #e5e5e5; 
+        font-size: 35px; 
+        text-align: center; 
     }
 
     /* Experience section styles */
     .experience-entry h3 {
         color: #e5e5e5;
         font-weight: bold;
-        font-size: 20px; /* Text size for job titles */
-        margin-top: 30px; /* Spacing above job titles */
+        font-size: 20px; 
+        margin-top: 30px; 
     }
 
     .experience-entry .company {
@@ -51,7 +85,7 @@
     }
 
     .experience-entry .date-range {
-        margin-bottom: 10px; /* Spacing below date range */
+        margin-bottom: 10px;
     }
 
     .experience-entry p {
@@ -60,12 +94,12 @@
 
     /* Skills section styles */
     #skills p {
-        margin-bottom: 5px; /* Spacing below each skill */
+        margin-bottom: 5px; 
     }
 
     /* Education section styles */
     .education-entry p {
-        margin-bottom: 5px; /* Spacing below each line in education entries */
+        margin-bottom: 5px; 
     }
 
     .education-entry {
@@ -76,45 +110,10 @@
         font-style: italic;
     }
 
-    .site-topper {
-        background-color: #050a30; /* Background color of the site topper */
-        color: #ffffff;
-        padding: 20px 0;
-        text-align: center;
-    }
-
-    .site-topper h1 {
-        font-size: 36px; /* Size of the name title */
-        color: #ffffff; /* Text color of the name */
-        text-align: center;
-    }
-
-    .site-topper .lead {
-        font-size: 20px; /* Size of the lead text */
-        color: #ffffff; /* Text color of the lead text */
-        text-align: center;
-    }
-
-    .site-topper img {
-        max-width: 100%; /* Adjust size as needed */
-        margin-bottom: 20px;
-    }
-
-    /* Navigation bar styles */
-    .btn-primary {
-       margin-top: 50px;
-        background-color: #e85d04; /* Button background color */
-        border: none; /* Remove default border */
-        padding: 10px 20px; /* Button padding */
-        color: #ffffff; /* Button text color */
-        font-size:30px;
-        margin-bottom: 80px;
-    }
-
     .section-divider {
-        border-top: 1rem solid #e85d04; /* Solid line, 2px thickness */
-        margin-top: 20px; /* Adjust the spacing above the line as needed */
-        margin-bottom: 20px; /* Adjust the spacing below the line as needed */
+        border-top: 1rem solid #e85d04; 
+        margin-top: 25px; 
+        margin-bottom: 20px; 
     }
 }
 
@@ -124,22 +123,22 @@
     }
     
     body {
-        margin-bottom: 60px; /* Smaller space for navbar on phones */
+        margin-bottom: 60px;
     }
 
     #navbar .nav-link {
-        font-size: 25px; /* Smaller text for navbar links on phones */
+        font-size: 25px; 
     }
 
     .section-heading {
-        font-size: 30px; /* Smaller text for section headings on phones */
+        font-size: 30px; 
     }
 
     .experience-entry h3 {
-        font-size: 18px; /* Smaller text for job titles on phones */
+        font-size: 18px; 
     }
 
     #skills .col-md-4 {
-        margin-bottom: 20px; /* Spacing between skill columns on phones */
+        margin-bottom: 20px; 
     }
 }
