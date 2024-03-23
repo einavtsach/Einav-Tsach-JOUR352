@@ -7,47 +7,47 @@
 @media {
     body {
         background-color: #050a30;
-        font-family: "Archivo Black"; 
-        color: #e5e5e5; 
+        font-family: "Archivo Black";
+        color: #e5e5e5;
     }
 
     .site-topper {
-        background-color: #050a30; 
+        background-color: #050a30;
         color: #ffffff;
         padding: 20px 0;
         text-align: center;
     }
 
     .site-topper h1 {
-        font-size: 36px; 
-        color: #ffffff; 
+        font-size: 36px;
+        color: #ffffff;
         text-align: center;
     }
 
     .site-topper .lead {
-        font-size: 20px; 
-        color: #ffffff; 
+        font-size: 20px;
+        color: #ffffff;
         text-align: center;
     }
 
     .site-topper img {
-        max-width: 100%; 
+        max-width: 100%;
         margin-bottom: 20px;
     }
 
     .btn-primary {
-       margin-top: 50px;
-        background-color: #e85d04; 
-        border: none; 
-        padding: 10px 20px; 
-        color: #ffffff; 
-        font-size:30px;
+        margin-top: 50px;
+        background-color: #e85d04;
+        border: none;
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 30px;
         margin-bottom: 80px;
     }
-    
+
     /* Navigation bar styles */
     #navbar {
-        background-color: #233dff; 
+        background-color: #233dff;
         margin-top: 20px;
     }
 
@@ -60,23 +60,23 @@
     }
 
     #navbar .navbar-nav .nav-item {
-        padding: 0 10px; 
+        padding: 0 10px;
     }
 
     /* Section heading styles */
     .section-heading {
-        margin-bottom: 20px; 
-        color: #e5e5e5; 
-        font-size: 35px; 
-        text-align: center; 
+        margin-bottom: 20px;
+        color: #e5e5e5;
+        font-size: 35px;
+        text-align: center;
     }
 
     /* Experience section styles */
     .experience-entry h3 {
         color: #e5e5e5;
         font-weight: bold;
-        font-size: 20px; 
-        margin-top: 30px; 
+        font-size: 20px;
+        margin-top: 30px;
     }
 
     .experience-entry .company {
@@ -94,12 +94,12 @@
 
     /* Skills section styles */
     #skills p {
-        margin-bottom: 5px; 
+        margin-bottom: 5px;
     }
 
     /* Education section styles */
     .education-entry p {
-        margin-bottom: 5px; 
+        margin-bottom: 5px;
     }
 
     .education-entry {
@@ -111,9 +111,9 @@
     }
 
     .section-divider {
-        border-top: 1rem solid #e85d04; 
-        margin-top: 25px; 
-        margin-bottom: 20px; 
+        border-top: 1rem solid #e85d04;
+        margin-top: 25px;
+        margin-bottom: 20px;
     }
 }
 
@@ -121,24 +121,24 @@
     .site-topper h1 {
         margin-top: 50px;
     }
-    
+
     body {
         margin-bottom: 60px;
     }
 
     #navbar .nav-link {
-        font-size: 25px; 
+        font-size: 25px;
     }
 
     .section-heading {
-        font-size: 30px; 
+        font-size: 30px;
     }
 
     .experience-entry h3 {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     #skills .col-md-4 {
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 }
