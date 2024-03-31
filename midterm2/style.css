@@ -1,0 +1,52 @@
+@media {
+   #headshot { 
+       width: 300px;
+       float: none;
+       margin: 0px 20px 0px 0px;
+    }
+
+   /*NOTE DIFFERENCE ABOVE AND BELOW BETWEEN HTML ELEMENT AND ID WHEN IT COMES TO CSS */
+   
+    body {
+        font-family: Arial, san-serif;
+    }
+    
+    #contact a { /* Study syntax*/
+        font-weight: bold;
+        color: black;
+        font-size: 20px;
+        
+    }
+    
+    #contact a:hover { /* Study syntax*/
+    color: red;
+}
+    
+    #info {
+        width: 100%;
+        margin: auto;
+    }
+    
+    #footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+        width: 200px;
+        padding: inherit;
+    }
+    
+}
+
+@media (min-width:576px) {
+    #info {
+        width: 700px;
+    }
+    
+    #headshot {
+        float: left;
+    }
+}
+
+
+ 
