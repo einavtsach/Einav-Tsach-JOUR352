@@ -1,0 +1,33 @@
+/* Color Palette
+ * 
+ * 
+ * */
+
+img {
+    width:100%;
+}
+
+#topper {
+    background-image: url(107195421-1676500961390-gettyimages-1466480806-0g8a0653_09d15ab1-f40a-481b-929e-682ff8f63e53.jpeg);
+        background-size: cover;
+    background-position: 10% 10%;
+    height:600px;
+}
+
+h1 {
+   padding: 50px 10px 0px 900px; 
+}
+
+.caption {
+    font-size: 10px;
+}
+
+.credit {
+    font-weight:bold;
+    text-transform:uppercase;
+    color:gray;
+}
+
+.date {
+    text-align:center;
+}
