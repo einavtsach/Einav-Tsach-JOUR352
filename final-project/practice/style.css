@@ -3,30 +3,29 @@
  */
 
 @media {
-    img {
-        width: 100%;
-    }
-
-    #topper {
-        background-image: url(2.jpeg);
+    
+/*#topper {
         background-size: cover;
         background-position: 10% 10%;
         height: 450px;
         /*background-color:#1A467D;*/
+
     }
 
     h1 {
-        padding: 10px 10px 10px 10px;
-        margin: 0px 0px 0px 0px;
-        background-color: #000000;
-        color: white;
+        color: black;
         text-align: center;
+        font-family: Archivo Black;
     }
     
     h2 {
         font-weight: bold;
         font-size: 30px;
     }
+
+p {
+    font-family: Inter;
+}
 
     .caption {
         font-size: 12px;
@@ -40,6 +39,7 @@
 
     .date {
         text-align: center;
+        font-style: italic;
     }
 
     #content {
