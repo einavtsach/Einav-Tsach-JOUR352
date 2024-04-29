@@ -1,33 +1,102 @@
-/* Color Palette
- * 
- * 
- * */
+/* Color palette
+ * Dark blue - #1A467D
+ */
 
-img {
-    width:100%;
-}
+@media {
+    body {
+        background-color: #f0ffff;
+    }
 
-#topper {
-    background-image: url(107195421-1676500961390-gettyimages-1466480806-0g8a0653_09d15ab1-f40a-481b-929e-682ff8f63e53.jpeg);
+    /*#topper {
         background-size: cover;
-    background-position: 10% 10%;
-    height:600px;
+        background-position: 10% 10%;
+        height: 450px;
+        /*background-color:#1A467D;
+
+    } */
+
+    h1 {
+        color: black;
+        text-align: center;
+        font-family: Archivo Black;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    p {
+        font-family: Inter;
+    }
+
+    .caption {
+        font-size: 12px;
+    }
+
+    .credit {
+        font-weight: bold;
+        color: gray;
+        text-transform: uppercase;
+    }
+
+    .date {
+        text-align: center;
+        font-style: italic;
+    }
+
+    #content {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .inlineimage {
+        width: 100%;
+    }
+
+    .pullquote {
+        border-left: 3px solid black;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .quote {
+        font-size: 50px;
+    }
+
+    .attribution {
+    }
+
+    .quotemark {
+        font-size: 120px;
+        float: left;
+        line-height: 50px;
+        font-family: "Inter";
+    }
 }
 
-h1 {
-   padding: 50px 10px 0px 900px; 
+@media (min-width: 576px) {
+    #content {
+        width: 80%;
+    }
 }
 
-.caption {
-    font-size: 10px;
+@media (min-width: 992px) {
+    #content {
+        width: 60%;
+    }
 }
 
-.credit {
-    font-weight:bold;
-    text-transform:uppercase;
-    color:gray;
+@media (min-aspect-ratio: 16/9) {
+    video {
+        width: 100%;
+        height: auto;
+    }
 }
-
-.date {
-    text-align:center;
+@media (max-aspect-ratio: 16/9) {
+    video {
+        width: auto;
+        height: 100%;
+    }
 }
