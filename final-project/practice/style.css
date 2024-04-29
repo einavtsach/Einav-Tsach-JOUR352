@@ -3,29 +3,32 @@
  */
 
 @media {
-    
-/*#topper {
+    body {
+        background-color: #f0ffff;
+    }
+
+    /*#topper {
         background-size: cover;
         background-position: 10% 10%;
         height: 450px;
-        /*background-color:#1A467D;*/
+        /*background-color:#1A467D;
 
-    }
+    } */
 
     h1 {
         color: black;
         text-align: center;
         font-family: Archivo Black;
     }
-    
+
     h2 {
         font-weight: bold;
         font-size: 30px;
     }
 
-p {
-    font-family: Inter;
-}
+    p {
+        font-family: Inter;
+    }
 
     .caption {
         font-size: 12px;
@@ -51,31 +54,26 @@ p {
         width: 100%;
     }
 
-.pullquote {
-    border-left:3px solid black;
-    text-align: center;
-    padding: 10px 30px 10px 30px;
-    margin: 20px 0px 20px 0px;
-    
-}
+    .pullquote {
+        border-left: 3px solid black;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        margin: 20px 0px 20px 0px;
+    }
 
+    .quote {
+        font-size: 50px;
+    }
 
-.quote {
-    font-size: 50px;
-}
+    .attribution {
+    }
 
-.attribution {
-    
-}
-
-.quotemark {
-    font-size: 120px;
-    float: left;
-    line-height: 50px;
-    font-family: "Inter";
-}
-
-
+    .quotemark {
+        font-size: 120px;
+        float: left;
+        line-height: 50px;
+        font-family: "Inter";
+    }
 }
 
 @media (min-width: 576px) {
@@ -91,14 +89,14 @@ p {
 }
 
 @media (min-aspect-ratio: 16/9) {
-  video {
-    width: 100%;
-    height: auto;
-  }
+    video {
+        width: 100%;
+        height: auto;
+    }
 }
 @media (max-aspect-ratio: 16/9) {
-  video {
-    width: auto;
-    height: 100%;
-  }
+    video {
+        width: auto;
+        height: 100%;
+    }
 }
