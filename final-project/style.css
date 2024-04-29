@@ -24,49 +24,47 @@
     h2 {
         font-weight: bold;
         font-size: 30px;
+        font-family: Anton;
     }
-    
+
     #topper {
         position: relative;
         margin: 0px;
         padding: 0px;
     }
-    
-#videoh1 {
+
+    #videoh1 {
         color: black;
-    background-color: #f0ffff;
-        margin:0px 0px 0px 700px;
-        padding:0px;
+        background-color: #f0ffff;
+        margin: 0px 0px 0px 700px;
+        padding: 0px;
         position: absolute;
-        top:80px;
-    font-style: italic;
-    text-transform: uppercase;
-    
+        top: 80px;
+        font-style: italic;
+        text-transform: uppercase;
     }
 
     #videoh3 {
         color: black;
-    background-color: #f0ffff;
-        margin:110px 0px 0px 700px;
-        padding:0px;
+        background-color: #f0ffff;
+        margin: 110px 0px 0px 700px;
+        padding: 0px;
         position: absolute;
-        top:80px;
-    font-style: italic;
+        top: 80px;
+        font-style: italic;
         font-family: Inter;
-    
     }
-    
+
     #videoh4 {
         color: black;
-    background-color: #f0ffff;
-        margin:140px 0px 0px 700px;
-        padding:0px;
+        background-color: #f0ffff;
+        margin: 140px 0px 0px 700px;
+        padding: 0px;
         position: absolute;
-        top:80px;
-    font-style: italic;
-    
+        top: 80px;
+        font-style: italic;
     }
-    
+
     p {
         font-family: Inter;
     }
@@ -82,8 +80,6 @@
         text-transform: uppercase;
         font-family: Inter;
     }
-
-
 
     #content {
         width: 100%;
@@ -103,6 +99,7 @@
 
     .quote {
         font-size: 50px;
+        font-family: Anton;
     }
 
     .attribution {
@@ -112,7 +109,6 @@
         font-size: 120px;
         float: left;
         line-height: 50px;
-        font-family: "Inter";
     }
 }
 
