@@ -50,6 +50,32 @@ p {
     .inlineimage {
         width: 100%;
     }
+
+.pullquote {
+    border-left:3px solid black;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+
+.quote {
+    font-size: 50px;
+}
+
+.attribution {
+    
+}
+
+.quotemark {
+    font-size: 120px;
+    float: left;
+    line-height: 50px;
+    font-family: "Inter";
+}
+
+
 }
 
 @media (min-width: 576px) {
