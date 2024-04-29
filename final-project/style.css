@@ -40,17 +40,19 @@
         position: absolute;
         top:80px;
     font-style: italic;
+    text-transform: uppercase;
     
     }
 
     #videoh3 {
         color: black;
     background-color: #f0ffff;
-        margin:100px 0px 0px 700px;
+        margin:110px 0px 0px 700px;
         padding:0px;
         position: absolute;
         top:80px;
     font-style: italic;
+        font-family: Inter;
     
     }
     
@@ -71,18 +73,17 @@
 
     .caption {
         font-size: 12px;
+        font-family: Inter;
     }
 
     .credit {
         font-weight: bold;
         color: gray;
         text-transform: uppercase;
+        font-family: Inter;
     }
 
-    .date {
-        text-align: center;
-        font-style: italic;
-    }
+
 
     #content {
         width: 100%;
