@@ -53,17 +53,21 @@
         top: 80px;
         font-style: italic;
         font-family: Inter;
+        font-size: 20px;
     }
 
     #videoh4 {
         color: black;
         background-color: #f0ffff;
-        margin: 140px 0px 0px 700px;
+        margin: 130px 0px 0px 700px;
         padding: 0px;
         position: absolute;
         top: 80px;
         font-style: italic;
+        font-size: 15px;
     }
+    
+
 
     p {
         font-family: Inter;
