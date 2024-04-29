@@ -18,14 +18,53 @@
     h1 {
         color: black;
         text-align: center;
-        font-family: Archivo Black;
+        font-family: Anton;
     }
 
     h2 {
         font-weight: bold;
         font-size: 30px;
     }
+    
+    #topper {
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+#videoh1 {
+        color: black;
+    background-color: #f0ffff;
+        margin:0px 0px 0px 700px;
+        padding:0px;
+        position: absolute;
+        top:80px;
+    font-style: italic;
+    
+    }
 
+    #videoh3 {
+        color: black;
+    background-color: #f0ffff;
+        margin:100px 0px 0px 700px;
+        padding:0px;
+        position: absolute;
+        top:80px;
+    font-style: italic;
+    
+    }
+    
+    #videoh4 {
+        color: black;
+    background-color: #f0ffff;
+        margin:140px 0px 0px 700px;
+        padding:0px;
+        position: absolute;
+        top:80px;
+    font-style: italic;
+    
+    }
+    
     p {
         font-family: Inter;
     }
