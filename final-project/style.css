@@ -27,6 +27,11 @@
         font-family: Anton;
     }
 
+    img {
+        width: 740px;
+        height: 416px;
+    }
+
     #topper {
         position: relative;
         margin: 0px;
@@ -66,8 +71,6 @@
         font-style: italic;
         font-size: 15px;
     }
-    
-
 
     p {
         font-family: Inter;
