@@ -30,6 +30,7 @@
     img {
         width: 740px;
         height: 416px;
+        align-content: center;
     }
 
     #topper {
